@@ -1,0 +1,308 @@
+@Composable
+fun Lab2Task3(modifier: Modifier){
+    Column {
+        Row(
+            modifier = Modifier
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text ="Iron Man",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 43",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+        Row(
+            modifier = Modifier
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text = "Hulk",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 38",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+        Row(
+            modifier = Modifier
+
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text = "Deadpool",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 25",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+        Row(
+            modifier = Modifier
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text = "Wolverine",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 48",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+        Row(
+            modifier = Modifier
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text = "Black Widow",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 30",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+        Row(
+            modifier = Modifier
+                .height(100.dp)
+        )
+        {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "",
+                contentScale = ContentScale.FillBounds,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+                    .padding(5.dp)
+            )
+
+
+            Column(
+                modifier = Modifier
+                    .padding(5.dp)
+                    .fillMaxWidth()
+                    .height(70.dp),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            )
+
+            {
+                Text(
+                    text = "Thor",
+                    textAlign = TextAlign.Left,
+                    fontWeight = FontWeight.ExtraBold,
+                    fontSize = 30.sp,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(0.dp, 4.dp)
+                )
+
+                Text(
+                    text = "Age: 35",
+                    textAlign = TextAlign.Left,
+                    color = Color.LightGray,
+                    modifier = Modifier
+                        .width(300.dp)
+                        .padding(0.dp)
+                        .offset(2.dp, 2.dp)
+                )
+
+            }
+
+        }
+
+
+    }
+}
